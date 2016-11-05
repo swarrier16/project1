@@ -89,19 +89,22 @@ textarea {
    ========================================================================== */
 li {
      display:inline;
+     padding: 10px;
    }
 ul {
      margin: 0px;
      padding: 0px;
 }
+
 #wrapper {
   width: 960px;
+  font-family: 'Roboto Slab', serif;
   margin-left: auto;
   margin-right: auto;
 }
 #banner {
   clear: both;
-  background-image: url("../img/ibiza.jpg");
+  background-image: url("../img/banner.jpg");
   height: 404px;
   background-size: cover;
   width: 960px;
@@ -110,30 +113,32 @@ ul {
 #banner h1 {
   margin: 0px;
   padding: 0px;
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 #header {
-  background-color:red;
+  background-color: #EC7063;
   height: 70px;
   line-height: 70px;
 }
 #menu {
-  background-color:blue;
   width: 593px;
   float: left;
+  text-align: right;
 
 }
 #menu a {
   color: white;
+  text-decoration: none;
 }
 
 #logo {
-  background-color: green;
   width: 367px;
   float: left;
 }
 #logo h1 {
-  padding: 0px;
+  padding: 2px;
   margin: 0px;
+  color: white;
 }
 #feature1, #feature2, #feature3 {
   float: left;
