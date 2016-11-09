@@ -89,6 +89,7 @@ textarea {
    ========================================================================== */
 li {
      display:inline;
+     padding: 10px;
    }
 ul {
      margin: 0px;
@@ -101,7 +102,7 @@ ul {
 }
 #banner {
   clear: both;
-  background-image: url("../img/ibiza.jpg");
+  background-image: url("../img/banner.jpg");
   height: 404px;
   background-size: cover;
   width: 960px;
@@ -112,24 +113,27 @@ ul {
   padding: 0px;
 }
 #header {
-  background-color:red;
+  background-color: #EC7063;
   height: 70px;
   line-height: 70px;
 }
 #menu {
-  background-color:blue;
   width: 593px;
   float: left;
-
+  text-align: right;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 18px;
 }
 #menu a {
   color: white;
+  text-decoration: none;
 }
 
 #logo {
-  background-color: green;
   width: 367px;
   float: left;
+  color: white; 
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 #logo h1 {
   padding: 0px;
@@ -144,7 +148,7 @@ ul {
   width: 100%;
 }
 #footer {
-  background-color: orange;
+  background-color: #EC7063;
   clear: both;
 }
 
