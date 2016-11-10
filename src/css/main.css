@@ -21,7 +21,6 @@ html {
  * These selection rule sets have to be separate.
  * Customize the background color to match your design.
  */
-
 ::selection {
     background: #b3d4fc;
     text-shadow: none;
@@ -99,13 +98,13 @@ ul {
   margin-left: auto;
   margin-right: auto;
 }
-#banner {
-  clear: both;
-  background-image: url("../img/ibiza.jpg");
-  height: 404px;
-  background-size: cover;
-  width: 960px;
-  background-repeat: no-repeat;
+.left {
+  border-radius : 2px;
+  foalt: left;
+  }
+.right{
+border-radius: 2px;
+float: right;
 }
 #banner h1 {
   margin: 0px;
